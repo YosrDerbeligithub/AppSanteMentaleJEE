@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+#global {
+    background-color: #121D55;
+    font-family: 'Railway', sans-serif; /* Use 'DM Serif Display' font family */
+   
+  }
+.title-custom {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal; /* Regular weight */
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+
+.description-custom{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 2;
+   
+}
+.custom-btn{
+    border: 1px solid #ffffff;
+    width: 75%;
+  height: 55px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.123), #312b6700);
+  margin: 0;
+  align-items: start;
+  border-radius: 60px;
+
+
+ 
+}
+.Contact-us-custom{
+    font-family:'Railway', sans-serif;
+    font-weight: 700;
+    font-size: 15;
+    margin: 0;
+    margin-right: 10px;
+}
+.custom-btn:hover {
+    border-color: #ffffff; /* Change la couleur de la bordure lors du survol */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.608); /* Ajoute une légère ombre lors du survol */
+  }
+
+
+.arrow-icon {
+    position: relative;
+    left: 15px; /* Adjust this value according to your preference */
+    top: 50%;
+}
+
+
+.col-card{
+    width: 420px;
+}
+.card {
+    background: linear-gradient(135deg, #101a48, #fefefe2b);
+    border-radius: 30px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 430px;
+
+
+}
+
+
+/*.card:hover .card-overlay {
+    transform: translateY(0);
+}*/
+
+
+.card-title {
+    font-size: 30px;
+    margin-bottom: px;
+    font-family: 'DM Serif Display', serif;
+
+
+
+
+}
+
+
+.card-image {
+    margin-top: 20px;
+    border: 2px white;
+    margin-bottom: 20px;
+
+
+}
+
+
+.card-description {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+}
+.arrow-link{
+    margin-left: 355px;
+   
+}
+.back {
+  	position:relative;
+  	top:-10px;
+    color:white;
+    width: 60%; /* Button takes full width of container */
+    height: 60px; /* Reduced height for all buttons */
+    padding: 12px 40px; /* Adjusted padding */
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #ffffff;
+    border-radius: 25px; /* Reduced border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  }
+  .back:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  
+  .back:active {
+    background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+.arrow-link:hover,
+.arrow-link:active {
+    transform: scale(1.1); /* Scale the link on hover or click */
+}
+.card:hover{
+	transform: scale(1.04);
+	cursor:pointer;
+}
